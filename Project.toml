@@ -1,0 +1,13 @@
+name = "HelloWorld"
+uuid = "3d5a38b0-1c62-4b8c-b912-934ef8c6a0c6"
+authors = ["hyrodium <hyrodium@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
