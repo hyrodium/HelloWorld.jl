@@ -63,9 +63,9 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using ImageClipboard
-            DocMeta.setdocmeta!(ImageClipboard, :DocTestSetup, :(using ImageClipboard); recursive=true)
-            doctest(ImageClipboard)'
+            using HelloWorld
+            DocMeta.setdocmeta!(HelloWorld, :DocTestSetup, :(using HelloWorld); recursive=true)
+            doctest(HelloWorld)'
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
