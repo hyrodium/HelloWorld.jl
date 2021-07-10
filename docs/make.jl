@@ -17,6 +17,6 @@ makedocs(;
 
 deploydocs(;
     target="build_en",
-    devurl="en"
+    devurl="en",
     repo="github.com/hyrodium/HelloWorld.jl",
 )
