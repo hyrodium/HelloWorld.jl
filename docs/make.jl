@@ -8,6 +8,7 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
+    doctest=false,
     repo="https://github.com/hyrodium/HelloWorld.jl/blob/{commit}{path}#L{line}",
     sitename="HelloWorld.jl",
     authors="hyrodium <hyrodium@gmail.com>",
