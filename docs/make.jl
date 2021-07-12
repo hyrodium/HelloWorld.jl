@@ -2,7 +2,7 @@ using Documenter, HelloWorld
 
 makedocs(;
     modules=[HelloWorld],
-    format=Documenter.HTML(),
+    format=Documenter.HTML(versions=nothing),
     pages=[
         "Home" => "index.md",
     ],
