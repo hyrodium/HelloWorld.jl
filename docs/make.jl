@@ -2,7 +2,7 @@ using Documenter, HelloWorld
 
 makedocs(;
     modules=[HelloWorld],
-    format=Documenter.HTML(versions=nothing),
+    format=Documenter.HTML(),
     pages=[
         "Home" => "index.md",
     ],
@@ -14,4 +14,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/hyrodium/HelloWorld.jl",
+    versions=nothing
 )
