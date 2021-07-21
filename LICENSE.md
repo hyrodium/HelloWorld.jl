@@ -1,7 +1,5 @@
 MIT License
 
-The HelloWorld.jl package is licensed under the MIT "Expat" License:
-
 Copyright (c) hyrodium.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
