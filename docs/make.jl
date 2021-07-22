@@ -13,6 +13,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/hyrodium/HelloWorld.jl",
-    versions=nothing
+    repo="github.com/hyrodium/HelloWorld.jl"
 )
