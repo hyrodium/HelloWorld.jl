@@ -13,5 +13,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/hyrodium/HelloWorld.jl"
+    repo="github.com/hyrodium/HelloWorld.jl",
+    versions = ["v^", "devel" => "dev", "foobar", "foo" => "bar"]
 )
